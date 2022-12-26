@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  26 DEC 2022 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  26 DEC 2022 21:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -790,32 +790,12 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <17.28> not available
 {c:/Users/geyh9/forlife/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./CubeRootAsymptotics.tex
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <14.4> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-[]\T1/cmbr/m/n/10 CS229T/STAT231:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\T1/cmbr/m/n/10 Sta-tis-ti-cal Learn-ing
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 6--6
-\T1/cmbr/m/n/10 The-ory (Win-ter 2016)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--6
-\T1/cmbr/m/n/10 in the uni-ver-sity of
- []
-
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 8.
-[2
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 12.
+ [2
 
 ]
-Underfull \hbox (badness 3746) in paragraph at lines 34--34
+Underfull \hbox (badness 3746) in paragraph at lines 38--38
 \T1/cmbr/m/n/10 it looks great, these
  []
 
@@ -828,15 +808,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 7.
  (./Template.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 7.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 7.
-
-
-Package rerunfilecheck Warning: File `Template.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Template.out':
-(rerunfilecheck)             Before: 67AB81A9ED04984F22B42F5A78C16328;268
-(rerunfilecheck)             After:  9CC175BB28FA45FD334999D93B0DC931;246.
+Package rerunfilecheck Info: File `Template.out' has not changed.
+(rerunfilecheck)             Checksum: 9CC175BB28FA45FD334999D93B0DC931;246.
  ) 
 Here is how much of TeX's memory you used:
  16296 strings out of 480876
@@ -847,7 +820,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,9n,50p,847b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb>
-Output written on Template.pdf (3 pages, 34308 bytes).
+Output written on Template.pdf (3 pages, 33887 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
