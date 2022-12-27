@@ -71,7 +71,7 @@ It means
 \begin{align*}
   C|\theta - \theta_0|^2 &< C n^{-1/2}|\theta - \theta_0|^{1/2} \\
   C|\theta - \theta_0|^{3/2} &< C n^{-1/2} \\
-  C|\theta - \theta_0| &< C n^{1/3} \\
+  C|\theta - \theta_0| &< C n^{-1/3} \\
 \end{align*}
 
 \begin{summary}
@@ -79,6 +79,20 @@ It means
   theoretically, we need build error bound uniformly in $\theta$ and the normal approximation must hold uniformly over $\theta$.
 \end{summary}
 
+Note that the variance term $\sigma_\theta$ decreases with $|\theta - \theta_0|$.
+
+If the loss function $g(\theta,\dot)$ is differentiable, 
+$\sigma_\theta$ decreases with $|\theta - \theta_0|^2$.
+ 
+Thus
+\begin{align*}
+  C|\theta - \theta_0|^2 &< C n^{-1/2}|\theta - \theta_0| \\
+  C|\theta - \theta_0| &< C n^{-1/2}
+\end{align*}
+
+It produces the common $n^{-1/2}$ rate.
+
+Thus the  variance term $\sigma_\theta$ decreases with $|\theta - \theta_0|$, the non-standard case is a consequence of ``shape-edge effect''
 
 
 \subsection{Convergence in distribution and the argmax functional}
