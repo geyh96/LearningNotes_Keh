@@ -1,7 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{mahmed}
 
-\LoadClass[twoside]{article}
+\LoadClass[twoside]{book}
 
 %STYLING%
 \RequirePackage[a4paper, total={5.25in, 8in}]{geometry}
