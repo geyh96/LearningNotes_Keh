@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  27 DEC 2022 21:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  27 DEC 2022 21:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -853,11 +853,11 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 24.
 
-[5]) [6] (./MachineLearning_PercyLiang.tex
+[5]) [6] (./Distribution-invariant_differential_privacy.tex
 Chapter 2.
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 22.
+(hyperref)                than one, level fixed on input line 23.
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
@@ -870,18 +870,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `Template.out' has not changed.
-(rerunfilecheck)             Checksum: FCEC8CC8E31D4F7EF6B6CF6249AFBD13;394.
+(rerunfilecheck)             Checksum: 0CD7557C4DEC65AB9D3934CBFFF5EFBE;401.
  ) 
 Here is how much of TeX's memory you used:
  16584 strings out of 480876
- 305626 string characters out of 5901707
+ 305694 string characters out of 5901707
  732149 words of memory out of 5000000
  31872 multiletter control sequences out of 15000+600000
  551409 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,9n,50p,870b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb>
-Output written on Template.pdf (7 pages, 91414 bytes).
+Output written on Template.pdf (7 pages, 91708 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream
