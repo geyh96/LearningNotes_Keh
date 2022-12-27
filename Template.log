@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  26 DEC 2022 21:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  27 DEC 2022 12:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -790,12 +790,20 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <17.28> not available
 {c:/Users/geyh9/forlife/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./CubeRootAsymptotics.tex
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <14.4> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 5.
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
+File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
+)
+Underfull \hbox (badness 7540) in paragraph at lines 16--16
+\T1/cmbr/m/n/10 pa-per is the lec-ture
+ []
+
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 12.
- [2
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 18.
+[2
 
 ]
-Underfull \hbox (badness 3746) in paragraph at lines 38--38
+Underfull \hbox (badness 3746) in paragraph at lines 44--44
 \T1/cmbr/m/n/10 it looks great, these
  []
 
@@ -812,18 +820,18 @@ Package rerunfilecheck Info: File `Template.out' has not changed.
 (rerunfilecheck)             Checksum: 9CC175BB28FA45FD334999D93B0DC931;246.
  ) 
 Here is how much of TeX's memory you used:
- 16296 strings out of 480876
- 302669 string characters out of 5901707
- 894556 words of memory out of 5000000
- 31602 multiletter control sequences out of 15000+600000
- 547995 words of font info for 63 fonts, out of 8000000 for 9000
+ 16318 strings out of 480876
+ 303200 string characters out of 5901707
+ 895595 words of memory out of 5000000
+ 31620 multiletter control sequences out of 15000+600000
+ 548340 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,9n,50p,847b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb>
-Output written on Template.pdf (3 pages, 33887 bytes).
+{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb>
+Output written on Template.pdf (3 pages, 59057 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 72 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
