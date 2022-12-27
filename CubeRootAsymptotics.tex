@@ -15,50 +15,68 @@ This paper gives a functional central limit theory for empirical process.
   \end{marginnotes}
 }
 
-\subsection{Even faker subsection}
-\lipsum[2]
-\begin{summary}
-\textbf{Summary} 
 
-This is a summary box to summarise sections. 
-You can't summarise Lorem ipsum text so yeah. For now, we'll use this opportunity to say that Cristiano Ronaldo is the greatest footballer of all time.
+
+
+
+\subsection{The Mode Estimation Problem}
+% \lipsum[2]
+
+The paper first intuitively gives an example of ``mode estimation'' and gives its convergence rate $n^{-1/3}$
+
+Suppose $\hat \theta_n$ is chosen to maximize
+
+\begin{align}
+    \Gamma_n(\theta) = P_n[\theta - 1,\theta + 1]
+\end{align}
+is the proportion of observations in an interval of length 2.
+
+If $P$ has a smooth density $p(\dot)$,
+the function $\Gamma$ is approximately parabolic of its optimal value $\theta_0$, which means that 
+$$
+\Gamma(\theta)-\Gamma\left(\theta_0\right)=\int_{1+\theta_0}^{1+\theta} p(x) d x-\int_{-1+\theta_0}^{-1+\theta} p(x) d x \approx-C \left(\theta-\theta_0\right)^2
+$$
+
+\begin{summary}
+  Take care that $\Gamma(\theta)$ is the expectation of $\Gamma_n(\theta)$.
+  The term above  is the ``bias'' caused by the departure of $\theta$ from $\theta_0$.
 \end{summary}
-\lipsum[1]
-\marginpar{
-  \begin{marginnotes}
-    Here is another margin note for the sole purpose to see what it would look like in a real document.
-  \end{marginnotes}
-}
-This is the greatest template of all time. Legalize anabolic steroids.
-Also, Cristiano Ronaldo is the greatest footballer of all time.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non malesuada ipsum. Ut suscipit, sem ut viverra suscipit, justo massa lacinia ligula, sit amet finibus eros felis quis risus.
-Nam dictum pulvinar sapien, a laoreet libero rhoncus ultrices. Maecenas id elementum augue. Praesent laoreet turpis at nulla ultricies, et vehicula enim congue. Nam bibendum venenatis pharetra. Quisque sagittis ligula et tempor gravida. Vivamus neque ipsum, tincidunt non magna blandit, finibus accumsan metus. Mauris eget nisi fringilla, varius urna vitae, scelerisque lectus. 
-\clearpage
-\section{Fake subsection}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non malesuada ipsum. Ut suscipit, sem ut viverra suscipit, justo massa lacinia ligula, sit amet finibus eros felis quis risus.
+Then we consider the stochastic term,
+$$
+D_n(\theta)=\left[\Gamma_n(\theta)-\Gamma_n\left(\theta_0\right)\right]-\left[\Gamma(\theta)-\Gamma\left(\theta_0\right)\right] .
+$$
+
+For fixed $\theta$,
+the $D_n(\theta)$ is approximately $N(0,\sigma^2_\theta/n)$
+where
+$$
+\sigma_\theta^2 \approx \int_{1+\theta_0}^{1+\theta} p(x) d x+\int_{-1+\theta_0}^{-1+\theta} p(x) d x \approx C\left|\theta-\theta_0\right|
+$$
 \marginpar{
   \begin{marginnotes}
-    This is a margin note where you can put notes in the margin. I'm gonna write random stuff so I can see what it looks like with more text. And it looks great, these margin notes are world-class.
+The ``add'' and ``minus'' produces different order here.
+The order produced by ``add'' is due to the finite density of  $p()$.
+Thus the density integral is proportional to the length of $\theta$
   \end{marginnotes}
 }
-Nam dictum pulvinar sapien, a laoreet libero rhoncus ultrices. Maecenas id elementum augue. Praesent laoreet turpis at nulla ultricies, et vehicula enim congue. Nam bibendum venenatis pharetra. Quisque sagittis ligula et tempor gravida. Vivamus neque ipsum, tincidunt non magna blandit, finibus accumsan metus. Mauris eget nisi fringilla, varius urna vitae, scelerisque lectus. 
-\subsection{Even faker subsection}
-\lipsum[2]
-This is the greatest template of all time. Legalize anabolic steroids.
-Also, Cristiano Ronaldo is the greatest footballer of all time.
-\marginpar{
-  \begin{marginnotes}
-    Here is another margin note for the sole purpose to see what it would look like in a real document.
-  \end{marginnotes}
-}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non malesuada ipsum. Ut suscipit, sem ut viverra suscipit, justo massa lacinia ligula, sit amet finibus eros felis quis risus.
-Nam dictum pulvinar sapien, a laoreet libero rhoncus ultrices.
+% \lipsum[2]
+Intuitively, when the bias term $C|\theta - \theta_0|^2$  is large comparing with the stochastic term $C|\theta - \theta_0|$ , the $\theta$ is far away from the true value $\theta_0$.
+Thus not maximize the $\Gamma_n(\theta)$.
+
+So the $\theta$ could be the solution of $\Gamma_n(\theta)$ if the bias term is the same order or smaller than the stochastic term.
+It means 
+\begin{align*}
+  C|\theta - \theta_0|^2 &< C n^{-1/2}|\theta - \theta_0|^{1/2} \\
+  C|\theta - \theta_0|^{3/2} &< C n^{-1/2} \\
+  C|\theta - \theta_0| &< C n^{1/3} \\
+\end{align*}
+
 \begin{summary}
-  \textbf{Summary} 
+  However, it is just an intuitive explaination.
+  theoretically, we need build error bound uniformly in $\theta$ and the normal approximation must hold uniformly over $\theta$.
+\end{summary}
 
-  This is a summary box to summarise sections. 
-  You can't summarise Lorem ipsum text so yeah. For now, we'll use this opportunity to say that Cristiano Ronaldo is the greatest footballer of all time.
-  \end{summary}
-  \lipsum[1]
-Maecenas id elementum augue. Praesent laoreet turpis at nulla ultricies, et vehicula enim congue. Nam bibendum venenatis pharetra. Quisque sagittis ligula et tempor gravida. Vivamus neque ipsum, tincidunt non magna blandit, finibus accumsan metus. Mauris eget nisi fringilla, varius urna vitae, scelerisque lectus. 
+
+
+\subsection{Convergence in distribution and the argmax functional}

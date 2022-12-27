@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  27 DEC 2022 17:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  27 DEC 2022 20:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -667,34 +667,198 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/ctex.sty
+Package: ctex 2020/08/23 v2.5.4 Chinese adapter in LaTeX (CTEX)
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2020/08/23 v2.5.4 Document and package hooks (CTEX)
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2020/08/23 v2.5.4 Patching commands (CTEX)
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+)) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\c@theorem=\count339
-\c@corollary=\count340
-\c@fact=\count341
-\c@property=\count342
-\c@result=\count343
-\c@lemma=\count344
-\c@assumption=\count345
-\c@case=\count346
-\c@axiom=\count347
-\c@change=\count348
-\c@claim=\count349
-\c@conjecture=\count350
-\c@definition=\count351
-\c@example=\count352
-\c@formula=\count353
-\c@hypothesis=\count354
-\c@method=\count355
-\c@model=\count356
-\c@notation=\count357
-\c@note=\count358
-\c@objective=\count359
-\c@observation=\count360
-\c@principle=\count361
-\c@problem=\count362
-\c@procedure=\count363
-\c@remark=\count364
-\c@step=\count365
+\l__ctex_tmp_int=\count339
+\l__ctex_tmp_box=\box74
+\l__ctex_tmp_dim=\dimen198
+\g__ctex_section_depth_int=\count340
+\g__ctex_font_size_int=\count341
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2020/08/23 v2.5.4 Option configuration file (CTEX)
+)
+
+Package ctex Warning: UTF8 will be used as the default encoding.
+
+(c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
+File: ctex-engine-pdftex.def 2020/08/23 v2.5.4 (pdf)LaTeX adapter (CTEX)
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
+Package: CJKutf8 2015/04/18 4.8.4
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2015/04/18 4.8.4
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2015/04/18 4.8.4
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2015/04/18 4.8.4
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box75
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+Package: CJKpunct 2016/05/14 4.8.4
+\CJKpunct@cnta=\count342
+\CJKpunct@cntb=\count343
+\CJKpunct@cntc=\count344
+\CJKpunct@cntd=\count345
+\CJKpunct@cnte=\count346
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2026 (decimal 8230)
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa)) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
+Package: CJKspace 2015/04/18 3.8.0
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/ctexspa.def
+File: ctexspa.def 2020/08/23 v2.5.4 Space info for CJKpunct (CTEX)
+)
+
+Package hyperref Warning: Option `driverfallback' has already been used,
+(hyperref)                setting the option has no effect on input line 279.
+
+Package hyperref Info: Option `unicode' set `true' on input line 297.
+(c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+\ccwd=\dimen199
+\l__ctex_ccglue_skip=\skip136
+)
+\l__ctex_ziju_dim=\dimen256
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count347
+\l__zhnum_byte_min_int=\count348
+\l__zhnum_byte_max_int=\count349
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
+)) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+File: ctex-scheme-chinese.def 2020/08/23 v2.5.4 Chinese scheme for generic (CTEX)
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2020/08/23 v2.5.4 Caption with encoding UTF-8 (CTEX)
+)) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2020/08/23 v2.5.4 c5size option (CTEX)
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2020/08/23 v2.5.4 Windows fonts definition (CTEX)
+)) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2020/08/23 v2.5.4 Configuration file (CTEX)
+)
+\c@theorem=\count350
+\c@corollary=\count351
+\c@fact=\count352
+\c@property=\count353
+\c@result=\count354
+\c@lemma=\count355
+\c@assumption=\count356
+\c@case=\count357
+\c@axiom=\count358
+\c@change=\count359
+\c@claim=\count360
+\c@conjecture=\count361
+\c@definition=\count362
+\c@example=\count363
+\c@formula=\count364
+\c@hypothesis=\count365
+\c@method=\count366
+\c@model=\count367
+\c@notation=\count368
+\c@note=\count369
+\c@objective=\count370
+\c@observation=\count371
+\c@principle=\count372
+\c@problem=\count373
+\c@procedure=\count374
+\c@remark=\count375
+\c@step=\count376
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+File: UTF8.bdg 2015/04/18 4.8.4
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > Template.aex <nul: /p x=^%~$PATH:i>> Template.aex)...executed.
 
 runsystem(del Template.aex)...executed.
@@ -702,22 +866,88 @@ runsystem(del Template.aex)...executed.
  (./Template.aux)
 \openout1 = `Template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -755,16 +985,16 @@ LaTeX Font Info:    ... okay on input line 85.
 
 (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count366
-\scratchdimen=\dimen198
-\scratchbox=\box74
-\nofMPsegments=\count367
-\nofMParguments=\count368
+\scratchcounter=\count377
+\scratchdimen=\dimen257
+\scratchbox=\box76
+\nofMPsegments=\count378
+\nofMParguments=\count379
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count369
-\MPscratchDim=\dimen199
-\MPnumerator=\count370
-\makeMPintoPDFobject=\count371
+\MPscratchCnt=\count380
+\MPscratchDim=\dimen258
+\MPnumerator=\count381
+\makeMPintoPDFobject=\count382
 \everyMPtoPDFconversion=\toks39
 ) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -772,13 +1002,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\AtBeginShipoutBox=\box75
+\AtBeginShipoutBox=\box77
  (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-Package hyperref Info: Link coloring ON on input line 85.
+Package hyperref Info: Link coloring ON on input line 86.
  (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -786,75 +1016,81 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count372
+\c@section@level=\count383
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
  (./Template.out) (./Template.out)
 \@outlinefile=\write5
 \openout5 = `Template.out'.
 
-\c@lstlisting=\count373
-LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 85.
+\c@lstlisting=\count384
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 86.
+LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line 86.
  (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 85.
+LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line 86.
  (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cmbright/omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Trying to load font information for OT1+cmtl on input line 85.
+LaTeX Font Info:    Trying to load font information for OT1+cmtl on input line 86.
  (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cmbright/ot1cmtl.fd
 File: ot1cmtl.fd 2005/04/13 v8.1 (WaS)
 ) (./titlepage.tex
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10> not available
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10.53937> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 14.
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <17.28> not available
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <18.06749> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 14.
- [1
+ (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/generic/ctex/zhmap/ctex-zhmap-windows.tex
+File: ctex-zhmap-windows.tex 2020/08/23 v2.5.4 Windows font map loader for pdfTeX and DVIPDFMx (CTEX)
+{c:/Users/geyh9/forlife/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Unicode.sfd}) [1
 
-{c:/Users/geyh9/forlife/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./CubeRootAsymptotics.tex
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <14.4> not available
+]) (./CubeRootAsymptotics.tex
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <15.05624> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 1.
 LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 5.
  (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
 )
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 18.
- [2
-
-]
-Underfull \hbox (badness 3746) in paragraph at lines 44--44
-\T1/cmbr/m/n/10 it looks great, these
+Underfull \hbox (badness 1259) in paragraph at lines 16--16
+[]\T1/cmbr/m/n/10.53937 The pa-per is a very
  []
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
- [3
+LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12.045> not available
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 22.
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
+Underfull \hbox (badness 1147) in paragraph at lines 62--62
+\T1/cmbr/m/n/10.53937 pro-duced by ``add'' is
+ []
+
+[2
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (./Template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 91.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
 Package rerunfilecheck Info: File `Template.out' has not changed.
-(rerunfilecheck)             Checksum: 9CC175BB28FA45FD334999D93B0DC931;246.
+(rerunfilecheck)             Checksum: BD959FA3045BC3B6F81DD033CD4F04C0;695.
  ) 
 Here is how much of TeX's memory you used:
- 16546 strings out of 480876
- 305119 string characters out of 5901707
- 897404 words of memory out of 5000000
- 31848 multiletter control sequences out of 15000+600000
- 548340 words of font info for 64 fonts, out of 8000000 for 9000
+ 22427 strings out of 480876
+ 399872 string characters out of 5901707
+ 813022 words of memory out of 5000000
+ 37589 multiletter control sequences out of 15000+600000
+ 552563 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,50p,870b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb>
-Output written on Template.pdf (3 pages, 59059 bytes).
+ 57i,9n,53p,848b,800s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb>
+Output written on Template.pdf (3 pages, 81939 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
