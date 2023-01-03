@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  2 JAN 2023 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  2 JAN 2023 22:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -906,11 +906,11 @@ Here is how much of TeX's memory you used:
  551409 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,9n,50p,870b,810s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb>
-Output written on Template.pdf (11 pages, 106055 bytes).
+{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb>
+Output written on Template.pdf (11 pages, 120964 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+ 146 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  20 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

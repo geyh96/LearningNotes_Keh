@@ -11,4 +11,21 @@ Learning Distributions}
 }
 
 
+However, theoretical explanations for
+their empirical success are not well established.
 
+More specifically,
+to estimate a target distribution $\mu$, one chooses an easy-to-sample source distribution $v$ (for
+example, uniform or Gaussian distribution) and find the generator by solving the following
+minimax optimization problem, at the population level,
+$$
+\min _{g \in \mathcal{G}} \max _{f \in \mathcal{F}} \mathbb{E}_{x \sim \mu}[f(x)]-\mathbb{E}_{z \sim \nu}[f(g(z))]$$
+
+
+max $f$ to increase the margin. so $f$ is the discriminator.
+
+min $g$ to decrease the margin ,so $g$ is the generator.
+
+
+We show that, if the generator and discriminator network architectures
+are properly chosen, GANs are able to learn any distributions with bounded support
