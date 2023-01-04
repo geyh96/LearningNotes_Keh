@@ -88,4 +88,101 @@ $$
 
 And we denote $A/A[\alpha]$ as $A/\alpha$.
 
-\Kchange{}
+
+For matrix $A$,
+$$
+A=\left(\begin{array}{cc}
+  A_{11} & A_{12} \\
+  A_{12}^* & A_{22}
+  \end{array}\right)
+$$
+
+$A >0$ if and only if $A_{11}>0$ and $A/A_{11} >0$
+
+$A \geq 0$ if and only if $A_{11}>0$ and $A/A_{11} \geq 0$
+
+if $A \geq 0$
+and $A_{11} >0$,
+then $A/A_{11} = A_{22} - A_{12}A_{11}^{-1} a_{12} \geq 0$
+so
+$A_{22} \geq A/A_{11} \geq 0$,
+$\det(A_{22})\geq 0$
+
+\begin{lemma}
+  A,B are $n\times n$ positive matrices, then 
+  $\det(A+B) \geq \det(A) + \det(B)$
+\end{lemma}
+
+\section*{Eigenvalue and singular value of schur complement}
+
+$\mH_n$ is $n\times n$ Hermitian matrix sets.
+
+For $A \in \mH_n$ we define eigenvalues 
+$\lambda_1(A) \geq \lambda_2(A) \geq \dots,\geq \lambda_n(A)$.
+
+
+For $A \in \mC^{m\times n}$ we define singular value 
+$\sigma_1(A) \geq \sigma_2(A) \geq \dots,\geq \sigma_n(A)$.
+
+
+
+
+\begin{lemma}
+  Cauthy eigenvalue interlacing theorem
+
+  for 
+  $$
+  H=\left(\begin{array}{cc}
+  A & B \\
+  B^* & D
+  \end{array}\right)
+$$
+where $A$ is $r \times r$ and $H$ is $n \times n$.
+
+we have
+$$
+\lambda_i(H) \geq \lambda_i(A)\geq \lambda_{i+n-r}(H)
+$$
+\end{lemma}
+
+\begin{lemma}
+  $H \in \mH_n$, $\alpha$ is a index set of size $k$, $1\leq k<n$,
+  if $H[\alpha]$ positive definite,
+  then 
+  $$
+\lambda_i(H) \geq \lambda_i(H/\alpha \bigoplus \bzero)  \geq \lambda_{i+k}(H)
+$$
+\end{lemma}
+
+\begin{corollary}
+  $H$ is a $n \times n$ positive semidefinite matrix.
+  $H[\alpha]$ is $k \times k$.
+  then 
+  $$
+\lambda_i(H) \geq \lambda_i(H/\alpha )  \geq \lambda_{i+k}(H)
+$$
+
+$$
+\lambda_i(H) \geq \lambda_i(H[\alpha^c] )  \geq \lambda_{i+k}(H/\alpha) \geq \lambda_{i+k}(H)
+$$
+\end{corollary}
+
+
+\begin{corollary}
+  $H$ is a $n \times n$ positive semidefinite matrix.
+  $\alpha$ and $\alpha^\prime$ are to nonnull index set.
+  $\alpha^\prime \subset \alpha \subset \{1,2,\dots,n\}$
+
+  if $H[\alpha]$ non-singular,
+  for every $i  =1,2,\dots,n - |\alpha|$
+
+  $$
+  \lambda_i(H/\alpha^\prime)
+  \geq 
+  \lambda_i(H[\alpha^\prime\cap \alpha^c]/\alpha^\prime)
+  \geq
+  \lambda_i(H/\alpha)
+  \geq 
+  \lambda_{i+|\alpha| - |\alpha^\prime|}(H/\alpha^\prime)
+  $$
+\end{corollary}
