@@ -9,5 +9,81 @@
   \end{marginnotes}
 }
 
+In this part we give some basic result for the Schur Complement.
+
+Consider a matrix $M$,
+$$
+M=\left(\begin{array}{cc}
+  P & Q \\
+  R & S
+  \end{array}\right)
+$$
+,
+we define the 
+\Kchange{Schur Complement of $P$ in the matrix $M$}
+ as 
+\begin{align}
+  (M/P) = S - RP^{-1 }Q
+\end{align}
+
+\begin{lemma}
+  Schur determinant formula
 
 
+  P,Q,S,R all $n \times n$ matrix, then we have
+
+  $\det(M) = \det(PS - RQ)$
+
+  and
+
+  $\det M = \det(P) \det(S-RP^{-1}Q)$
+\end{lemma}
+
+\begin{definition}
+  The \Kchange{inertia} of hermitian matrix $H$ is the triple tuple
+  $In(H)= \{\pi,\nu,\delta\}$ is the number of positive, negative and zero eigenvalue.
+\end{definition}
+
+and we have the result
+$$
+H=\left(\begin{array}{cc}
+  H_{11} & H_{12} \\
+  H_{12}^* & H_{22}
+  \end{array}\right)
+$$
+
+then
+
+$In(H) = In(H_{11}) + In(H/H_{11})$
+
+For matrix $M$,
+$$
+M=\left(\begin{array}{cc}
+  A & B \\
+  C & D
+  \end{array}\right)
+$$
+
+we have 
+$$M/D = A - BD^{-1}C$$
+and
+$$M/A = D - BA^{-1}C$$
+
+\begin{lemma}
+  Schur formula
+  if $M$ square, and $A$ nonsingular.
+  $\det(M/A) = \det(M)/ \det(A)$
+\end{lemma}
+
+For a Matrix $A$ of size $n \times n$,
+we define the index set $\alpha$ and $\beta$ are subsets of $\{1,\dots,n\}$.
+
+Then we define $A[\alpha,\beta]$ is the submatrix with row index $\alpha$ and column index $\beta$.
+And we say $A[\alpha] = A[\alpha,\alpha]$.
+Then $A/A[\alpha,\beta]$ is the schur complement of $A[\alpha,\beta]$ in the matrix $A$.
+
+$$
+A/A[\alpha,\beta] = A[\alpha^c,\beta^c] - A[\alpha^c,\beta](A[\alpha,\beta]^{-1})A[\alpha,\beta^c]
+$$
+
+And we denote $A/A[\alpha]$ as $A/\alpha$.
