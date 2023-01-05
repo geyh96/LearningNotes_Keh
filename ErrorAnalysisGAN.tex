@@ -3,7 +3,6 @@
 Learning Distributions}
 \section*{Overview}
 
-
 \marginpar{
   \begin{marginnotes}
     Huang, J., Jiao, Y., Li, Z., Liu, S., Wang, Y.,  Yang, Y. (2022). An error analysis of generative adversarial networks for learning distributions. Journal of Machine Learning Research, 23(116), 1-43.
@@ -29,3 +28,11 @@ min $g$ to decrease the margin ,so $g$ is the generator.
 
 We show that, if the generator and discriminator network architectures
 are properly chosen, GANs are able to learn any distributions with bounded support
+
+$$
+\underset{g \in \mathcal{G}}{\operatorname{argmin}} d_{\mathcal{F}}\left(\widehat{\mu}_n, g_{\#} \nu\right)=\underset{g \in \mathcal{G}}{\operatorname{argmin}} \sup _{f \in \mathcal{F}}\left\{\frac{1}{n} \sum_{i=1}^n f\left(X_i\right)-\mathbb{E}_\nu[f \circ g]\right\}
+$$
+
+$$
+\underset{g \in \mathcal{G}}{\operatorname{argmin}} d_{\mathcal{F}}\left(\widehat{\mu}_n, g_{\#} \widehat{\nu}_m\right)=\underset{g \in \mathcal{G}}{\operatorname{argmin}} \sup _{f \in \mathcal{F}}\left\{\frac{1}{n} \sum_{i=1}^n f\left(X_i\right)-\frac{1}{m} \sum_{j=1}^m f\left(g\left(Z_i\right)\right)\right\},
+$$
