@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  6 JAN 2023 09:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.11)  10 FEB 2023 16:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -825,7 +825,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <24.88> not available
 \tf@toc=\write6
 \openout6 = `Template.toc'.
 
- [3] (./CubeRootAsymptotics.tex [4
+ [3] (./DNN_robustNonpara.tex [4
 
 
 ]
@@ -834,10 +834,30 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <20.74> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <14.4> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 3.
-LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[]\T1/cmbr/m/n/10 ROBUST NON-PARA-
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 9--9
+\T1/cmbr/m/n/10 WITH DEEP NEU-RAL
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+cmbr on input line 12.
 (c:/Users/geyh9/forlife/texlive/2020/texmf-dist/tex/latex/cmbright/ts1cmbr.fd
 File: ts1cmbr.fd 2005/04/13 v8.1 (WaS)
-)
+)) [5] (./CubeRootAsymptotics.tex
+Overfull \hbox (42.99384pt too wide) has occurred while \output is active
+\T1/cmbr/m/n/10 6 \T1/cmbr/m/sl/10 CHAPTER 1.  ROBUST NONPARAMETRIC REGRESSION WITH DEEP NEURAL NETWORKS
+ []
+
+[6
+
+
+]
+Chapter 2.
+
 Underfull \hbox (badness 1817) in paragraph at lines 18--18
 \T1/cmbr/m/n/10 ing the core idea and
  []
@@ -853,9 +873,9 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 24.
 
-[5]) [6] (./Distribution-invariant_differential_privacy.tex
-Chapter 2.
-[7
+[7]) [8] (./Distribution-invariant_differential_privacy.tex
+Chapter 3.
+[9
 
 
 ]
@@ -863,8 +883,8 @@ Overfull \hbox (25.0804pt too wide) in paragraph at lines 68--69
 []\T1/cmbr/m/n/10 add in-de-pen-dent noise $\OML/cmbrm/m/it/10 e[]$ \T1/cmbr/m/n/10 to the $\OML/cmbrm/m/it/10 F\OT1/cmbr/m/n/10 (\OML/cmbrm/m/it/10 Z[]\OT1/cmbr/m/n/10 )$ \T1/cmbr/m/n/10 where $\OML/cmbrm/m/it/10 e[]$ \T1/cmbr/m/n/10 fol-lows Laplace dis-tri-bu-tion $\OML/cmbrm/m/it/10 Laplace\OT1/cmbr/m/n/10 (0\OML/cmbrm/m/it/10 ; \OT1/cmbr/m/n/10 1\OML/cmbrm/m/it/10 =^^O\OT1/cmbr/m/n/10 )$ 
  []
 
-) [8] (./SchurComplement.tex
-Chapter 3.
+) [10] (./SchurComplement.tex
+Chapter 4.
 
 Underfull \hbox (badness 3396) in paragraph at lines 10--10
 \T1/cmbr/m/n/10 comes from the book
@@ -872,7 +892,7 @@ Underfull \hbox (badness 3396) in paragraph at lines 10--10
 
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <10> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 29.
-[9
+[11
 
 
 ]
@@ -884,8 +904,8 @@ LaTeX Font Warning: Font shape `OT1/cmbr/bx/n' in size <7> not available
 LaTeX Font Warning: Font shape `OT1/cmbr/bx/n' in size <5> not available
 (Font)              Font shape `OT1/cmbr/m/n' tried instead on input line 153.
 
-) [10] (./ErrorAnalysisGAN.tex
-Chapter 4.
+) [12] (./ErrorAnalysisGAN.tex
+Chapter 5.
 
 Underfull \hbox (badness 4634) in paragraph at lines 10--10
 \T1/cmbr/m/n/10 er-ror anal-y-sis of gen-
@@ -896,42 +916,32 @@ Underfull \hbox (badness 3209) in paragraph at lines 10--10
 \T1/cmbr/m/n/10 er-a-tive ad-ver-sar-ial net-
  []
 
-
-Overfull \hbox (127.49559pt too wide) in paragraph at lines 45--63
- [][] 
- []
-
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
- [11
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
+ [13
 
 
 ]
-Overfull \hbox (157.2226pt too wide) has occurred while \output is active
-\T1/cmbr/m/n/10 12 \T1/cmbr/m/sl/10 CHAPTER 4.  AN ERROR ANALYSIS OF GENERATIVE ADVERSARIAL NETWORKS FOR LEARNING DISTRIBUTIONS
- []
-
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
  (./Template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
 Package rerunfilecheck Info: File `Template.out' has not changed.
-(rerunfilecheck)             Checksum: D949767097051AA684728DA968C98C7F;500.
+(rerunfilecheck)             Checksum: 75779FA1C8540D5F42BEFC15F53D23DC;592.
  ) 
 Here is how much of TeX's memory you used:
- 16619 strings out of 480876
- 306097 string characters out of 5901707
- 735319 words of memory out of 5000000
- 31885 multiletter control sequences out of 15000+600000
+ 16626 strings out of 480876
+ 306206 string characters out of 5901707
+ 734319 words of memory out of 5000000
+ 31887 multiletter control sequences out of 15000+600000
  551704 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,9n,50p,870b,810s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbras10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/Users/geyh9/forlife/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbmr17.pfb>
-Output written on Template.pdf (12 pages, 154450 bytes).
+Output written on Template.pdf (13 pages, 155531 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
