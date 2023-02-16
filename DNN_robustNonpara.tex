@@ -16,15 +16,47 @@ Main contributions lies in the theoretical part.
   \item limitation: X have bounded support. The condition is needed in the approximation theory.
   The condition appears in page 10. (Writting skills.)
 \end{itemize}
-% 利用深度神经网络进行回归的问题进行了处理,
-% 主要的贡献在于理论方面,主要有
-% \begin{itemize}
-%   \item 超额风险和数据维度 d 的关系是sublinear的
-%   \item 只要求Y的数据是 p阶矩有界的。 这也是题目中的robust的来源
-%   \item 放松了对 exact manifold support assumption的要求，可以是近似的在一个低维空间上即可
-%   \item 有一个局限性，就是要求X的support是bounded的，这个要求在第十页才写出来，是逼近误差的部分需要的 
-% \end{itemize}
+
+$f^0$ is the true function we want.
+$Z= (X,Y)$ is random vector independent of $f$.  \Kchange{So no post selection problem here.? why emphisize it.}
+$Y =  f^0(X) + \eta$, where $\eta$ is the noise vector independent with $X$.
+$L$ is the loss function that is Lipschitz and continuous.
 
 
+So we can define the risk we interested in :
+$$
+R(f) = E_z L\{f(x),Y\}
+$$
 
+and we define the target here is 
+$f^* = \argmin_f R(f) = \argmin_f E_z L\{f(x),Y\}$
 
+\Kchange{The target of optimization and what we optimize is in the same page with the definition of $f^*$}.
+
+We denote $\mS = \{X_i,Y_i\}_{i=1}^n$ is the data set with sample size $n$.
+
+Then we can define the empirical risk on the data set is :
+$$
+R_n(f) = \frac{1}{n} \sum_i L\{f(X_i),Y_i\}
+$$
+.
+
+We define the estimated function as
+$$
+\hat f_n = \argmin\limits_{f\in \mF_n} R_n(f)
+$$
+The estimated function must be defined in a proper function class $\mF_n$. The subscripts $n$ says the depedency of the function class with the sample size $n$.
+
+So we have the excess risk:
+$$
+R(\hat f_n) - R(f^*) = E_z L\{\hat f_n(X),Y\} - E_z L\{f^*(X),Y\}
+$$
+\Kchange{The excess risk is the key point in machine learning
+We think a ``better'' $f_n$ should have smaller excess risk.
+However, the excess risk is still unobeservable.
+}
+
+And recall that $\hat f_n$ depends on the data, so the definition above is actually random.
+We can also investigate its expectation, $E_z\{R(\hat f_n) - R(f^*)\}$.
+
+Then we describe the function class $\mF_n$,
