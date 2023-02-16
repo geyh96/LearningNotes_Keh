@@ -59,4 +59,60 @@ However, the excess risk is still unobeservable.
 And recall that $\hat f_n$ depends on the data, so the definition above is actually random.
 We can also investigate its expectation, $E_z\{R(\hat f_n) - R(f^*)\}$.
 
-Then we describe the function class $\mF_n$,
+Then we describe the function class $\mF_n$, 
+an important character in this work is it distinguishes the different effect of the model depth $\mD$ and the width $\mW$.
+
+\section{Basic Error Analysis}
+For any $f \in \mF_\phi$,
+\begin{align}
+  R(f) - R(f^*) = \{R(f) - \inf_{f\in \mF_\phi}\} + \{\inf_{f\in \mF_\phi} - R(f^*)\} 
+\end{align}
+
+The first guy in the RHS is stochastic error.
+The second guy in the RHS is approximation error.
+
+consider a data-dependent $f_n$.
+According to Jiao 2021,
+\begin{align}
+  R(\hat f_n) - R(f^*) \leq 2\sup_{f\in \mF_n} |R(f) - R_n(f)| + \inf_{f\in\mF_n} R(f) - R(f^*) 
+\end{align}
+
+The first term can be handled with empirical process.
+\Kchange{When model space enlarged, this guy will increase.}
+The second term can be handled with approximation theory.
+\Kchange{When model spcae enlarged, this guy will decrease.}
+The approximation error part has four reference I saved in mendeley.
+
+\Kchange{Intuitively, Larger model space can appromixate model better but tend to overfitting.}
+
+In the approximation theory part,
+the key point is bound $ \inf_{f\in\mF_n} R(f) - R(f^*) $ with the term $\in_{f\in\mF_n} |f- f^*|$ where $|\dot|$ is the metric in the appropriate space.
+\Kchange{it depdends on the modulus of continuity of the function}.
+
+\subsection{Stochastic Error}
+Key definition, \textbf{Pseudo Dimension} \Kchange{I have heard this guy.}
+,For function class $\mF: \mX\to \bR$, we denote its Pseudo dimension as $Pdim(\mF)$.
+
+\Kchange{I donot know the difference of the definition of Pdim and Shatter number.}
+
+However, for the neural network class, we have $Pdim(\mF) = VC(\mF)$.
+
+Need to verify we investigate the Pdim and covering number of the point set given $f$ and dataset of size $n$.
+Then the uniform covering number is make $sup$ to the empirical covering number.
+
+Consider Lemma3,
+\Kchange{the condition $Pdim(\mF)<2n$, I cannot get the intuition.}
+
+reference Bartlett 2019.
+
+\Kchange{Indeed, it is a high dimensional result with parameter sparsity.}
+
+\section{Approximation Error}
+
+We approximate $f^*$ with $\mF_\phi$, the function class of neural network.
+
+\Kchange{X distributed on a bounded support.}
+
+
+
+

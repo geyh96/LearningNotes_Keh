@@ -1,7 +1,10 @@
 \BOOKMARK [0][-]{chapter.1}{ROBUST NONPARAMETRIC REGRESSION WITH DEEP NEURAL NETWORKS}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Cube Root Asymptotics}{}% 2
-\BOOKMARK [1][-]{subsection.2.0.1}{The Mode Estimation Problem}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.0.2}{Convergence in distribution and the argmax functional}{subsection.2.0.1}% 4
-\BOOKMARK [0][-]{chapter.3}{Distribution-Invariant Differential Privacy}{}% 5
-\BOOKMARK [0][-]{chapter.4}{Property of Schur Complement}{}% 6
-\BOOKMARK [0][-]{chapter.5}{An Error Analysis of Generative Adversarial Networks for Learning Distributions}{}% 7
+\BOOKMARK [1][-]{section.1.1}{Basic Error Analysis}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Stochastic Error}{section.1.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Approximation Error}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Cube Root Asymptotics}{}% 5
+\BOOKMARK [1][-]{subsection.2.0.1}{The Mode Estimation Problem}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.0.2}{Convergence in distribution and the argmax functional}{subsection.2.0.1}% 7
+\BOOKMARK [0][-]{chapter.3}{Distribution-Invariant Differential Privacy}{}% 8
+\BOOKMARK [0][-]{chapter.4}{Property of Schur Complement}{}% 9
+\BOOKMARK [0][-]{chapter.5}{An Error Analysis of Generative Adversarial Networks for Learning Distributions}{}% 10

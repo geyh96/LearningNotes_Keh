@@ -1,7 +1,10 @@
 \contentsline {chapter}{\numberline {1}ROBUST NONPARAMETRIC REGRESSION WITH DEEP NEURAL NETWORKS}{5}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Cube Root Asymptotics}{7}{chapter.2}%
-\contentsline {subsection}{\numberline {0.1}The Mode Estimation Problem}{7}{subsection.2.0.1}%
-\contentsline {subsection}{\numberline {0.2}Convergence in distribution and the argmax functional}{8}{subsection.2.0.2}%
-\contentsline {chapter}{\numberline {3}Distribution-Invariant Differential Privacy}{9}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Property of Schur Complement}{11}{chapter.4}%
-\contentsline {chapter}{\numberline {5}An Error Analysis of Generative Adversarial Networks for Learning Distributions}{13}{chapter.5}%
+\contentsline {section}{\numberline {1}Basic Error Analysis}{6}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1}Stochastic Error}{6}{subsection.1.1.1}%
+\contentsline {section}{\numberline {2}Approximation Error}{7}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Cube Root Asymptotics}{9}{chapter.2}%
+\contentsline {subsection}{\numberline {0.1}The Mode Estimation Problem}{9}{subsection.2.0.1}%
+\contentsline {subsection}{\numberline {0.2}Convergence in distribution and the argmax functional}{10}{subsection.2.0.2}%
+\contentsline {chapter}{\numberline {3}Distribution-Invariant Differential Privacy}{11}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Property of Schur Complement}{13}{chapter.4}%
+\contentsline {chapter}{\numberline {5}An Error Analysis of Generative Adversarial Networks for Learning Distributions}{15}{chapter.5}%
